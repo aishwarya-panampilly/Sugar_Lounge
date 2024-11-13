@@ -1,0 +1,149 @@
+.navbar-brand {
+    padding-left: 20px;
+    font-family: DynaPuff;
+    color: aliceblue;
+}
+.navbar-brand:hover {
+    color:rgb(109, 4, 207);
+}
+.navbar-nav {
+    padding-right: 30px;
+    font-family: DynaPuff;
+}
+.nav-link{
+    color: aliceblue;
+}
+.nav-link:hover {
+    color: rgb(109, 4, 207);
+}
+.full-screen-background{
+    background-image: url(images/cover_page_dessert.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.heading {
+    display: block;
+    color: #F5EFFF;
+    text-align:center;
+    font-family: DynaPuff;
+    font-size: 6em;
+    white-space:normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px)
+}
+.below_head {
+    display: block;
+    color:#E5D9F2;
+    text-align:center;
+    font-family: DynaPuff;
+    font-size: 3em;
+    white-space:normal;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6);
+    transform: translateY(-5px);
+}
+.small_head {
+    display: block;
+    color:#a594f9;
+    text-align:center;
+    font-family: DynaPuff;
+    font-size: 3em;
+    white-space:normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap : 20px;
+    padding: 10px 20px;
+    justify-content: center;
+    max-width: 1200px;
+    margin : 0 auto;
+    padding-bottom: 100px;
+}
+.rating_text {
+    vertical-align: middle; 
+    font-size: 1.1em;
+    margin-right: 0.5rem;
+}
+.btn {
+    background-color: #a594f9; 
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.btn:hover {
+    background-color: rgb(109, 4, 207);
+    color: white;
+}
+.centered_container{
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right:auto;
+    padding-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transform: translateY(-10px);
+    padding: 30px;
+    background-color:rgb(219, 206, 252)
+
+}
+.login_name {
+    color: rgb(109, 4, 207);
+}
+#login {
+    padding-top: 20px;
+    display: flex;
+    font-size: large;   
+}
+.navbar-logo {
+   margin-right: 10px;
+}
+.foot {
+    background-color: #a594f9;
+    font-family: DynaPuff;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.card {
+    position: relative;
+    height: 100%;
+    padding-bottom: 50px;
+}
+.price {
+    font-weight: bold;
+}
+.star-icon {
+    color:rgb(109, 4, 207);
+}
+.btn_sub {
+    background-color: #a594f9; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: DynaPuff;
+}
+.btn_sub:hover {
+    background-color: rgb(109, 4, 207);
+    color: white;
+}
+body {
+    background-color: #F5EFFF;
+}
